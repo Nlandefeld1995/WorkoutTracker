@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Workout Tracker</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Menu</string>
+    <string name="nav_header_subtitle"></string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_weight">Weight</string>
+    <string name="menu_cardio">Cardo</string>
+    <string name="menu_climb">Climb</string>
+    <string name="menu_other">Other</string>
+    <string name="menu_your_weight">Your Weight</string>
+    <string name="menu_your_weight_stats">Your Weight</string>
+    <string name="menu_weight_stats">Weight</string>
+    <string name="menu_cardio_stats">Cardio</string>
+    <string name="menu_climb_stats">Climb</string>
+    <string name="menu_other_stats">Other</string>
+</resources>

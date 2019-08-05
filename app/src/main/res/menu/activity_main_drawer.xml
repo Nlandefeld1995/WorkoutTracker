@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_weight"
+            android:icon="@drawable/weight_icon"
+            android:title="@string/menu_weight" />
+        <item
+            android:id="@+id/nav_cardio"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_cardio" />
+        <item
+            android:id="@+id/nav_climb"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/menu_climb" />
+        <item
+            android:id="@+id/nav_other"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/menu_other" />
+        <item
+            android:id="@+id/nav_your_weight"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/menu_your_weight" />
+    </group>
+
+    <item android:title="Historical Stats">Historical Stats</item>
+        <group>
+            <item
+                android:id="@+id/nav_your_weight_stats"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/menu_your_weight_stats" />
+            <item
+                android:id="@+id/nav_weight_stats"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/menu_weight_stats" />
+            <item
+                android:id="@+id/nav_cardio_stats"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/menu_cardio_stats" />
+            <item
+                android:id="@+id/nav_climb_stats"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/menu_climb_stats" />
+            <item
+                android:id="@+id/nav_other_stats"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/menu_other_stats" />
+        </group>
+
+
+</menu>
